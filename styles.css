@@ -1,0 +1,60 @@
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    background-color: black;
+    padding: 3rem;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    font-weight: bold;
+}
+.character-amount-container{
+    display:flex;
+    align-items: center;
+}
+.password-display{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    height: 2rem;
+    width:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius:5px;
+
+}
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.btn:hover{
+    background-color: darkgrey;
+}
